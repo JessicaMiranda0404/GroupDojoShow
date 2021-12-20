@@ -24,16 +24,16 @@
     </nav>
     <div class="card bg-dark border-2 border-dark m-auto text-white" style="width: 35%; background-color: rgba(59, 59, 59, 0.5); border: black; border-style: solid;">
         <h2 class="card-header text-center">View Show</h2>
-        <form action="/" method="post" class="col-4 p-4 text-white card-body w-100">
+        <div class="col-4 p-4 text-white card-body w-100">
             <div class="form-group text-white m-3">
-                <label for="title" class="mb-2">Title :</label>
-                <input type="text" name="title" value="{{show.title}}" class="form-control border border-dark justify-content-end mb-4" style="width: 90%; margin-left: 40px;">
+                <label for="title" class="mb-2 text-decoration-underline">Title :</label>
+                <p name="title" class="border border-dark justify-content-center mb-4" style="width: 90%; margin-left: 40px;">{{show.title}}</p>
             </div>
             <div class="form-group text-white align-bottom m-3">
-                <label for="description" class="mb-2">Description :</label>
-                <textarea name="description" class="form-control border border-dark justify-content-center mb-4" style="width: 90%; margin-left: 40px;">{{show.description}}</textarea>
+                <label for="description" class="mb-2 text-decoration-underline">Description :</label>
+                <p name="description" class="border border-dark justify-content-center mb-4" style="width: 90%; margin-left: 40px;">{{show.description}}</p>
             </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>
