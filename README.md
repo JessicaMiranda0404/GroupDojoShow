@@ -10,5 +10,5 @@ User is stored and tracked with session.
 
 ### Features 
 
-Here our users can keep track of their favortie shows. 
+Here our users can keep track of their favortie shows. Our Users can add, delete, edit, and view each others shows. We used Bootstrap CSS for an easy to use, crisp user experience. 
 
