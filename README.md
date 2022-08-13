@@ -7,8 +7,10 @@ User is stored and tracked with session.
 
 ## Shows application 
 
+Fantastic lesson in collaboration and full stack programming. 
+
 
 ### Features 
 
-Here our users can keep track of their favortie shows. Our Users can add, delete, edit, and view each others shows. We used Bootstrap CSS for an easy to use, crisp user experience. 
+Here our users can keep track of their favortie shows! Our Users can add, delete, edit, and view each others shows. We used Bootstrap CSS for an easy to use, crisp user experience. 
 
